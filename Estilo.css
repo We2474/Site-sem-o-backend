@@ -1,0 +1,101 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+nav {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+/* Logo */
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Menu */
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .menu li a:hover {
+    color: #ff9800;
+}
+
+/* Seção de produtos */
+.produtos {
+    padding: 40px;
+    text-align: center;
+}
+
+.produtos h1 {
+    margin-bottom: 30px;
+}
+
+/* Container de cards */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Para ajustar em telas menores */
+}
+
+/* Estilo dos cards */
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+/* Efeito ao passar o mouse */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Imagens */
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Botão */
+.card button {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: #e68900;
+}
+.form-contato label {
+    font-weight: bold;
+    font-size: 1.1em;  /* deixa maior que o texto normal */
+    color: #222;
+}

@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* Navbar */
+nav {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+/* Logo */
+nav .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Menu */
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .menu li a:hover {
+    color: #ff9800;
+}
+
+
+
+
+/* === Página de Contato === */
+.contato {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.contato h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contato p {
+    font-size: 1.1em;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* Formulário */
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.form-contato label {
+    font-weight: bold;
+    font-size: 1.1em;  /* maior que o texto normal */
+    color: #4e4e4e;
+}
+
+.form-contato input,
+.form-contato textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    background: #fff;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+    border-color: #ff9800;
+    outline: none;
+}
+
+/* Botão do formulário */
+.form-contato button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form-contato button:hover {
+    background-color: #e68900;
+}
+
+/* Link ativo no menu */
+nav .menu li a.ativo {
+    color: #ff9800;
+}
